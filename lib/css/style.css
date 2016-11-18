@@ -1,6 +1,17 @@
- #content {
-        margin: 0 auto;
-        padding-bottom: 50px;
-        width: 80%;
-        max-width: 978px;
-    }  
+ html{
+ 	width: 100%;
+ 	min-width: 310px;
+ }
+ body{
+ 	padding-top: 70px;
+ }
+
+
+#navbar{
+	background-color: #3F51B5;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}  
+
+
