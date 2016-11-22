@@ -16,18 +16,22 @@
 
 
 .vito{
-	height: 100px; 
+	
 	width: 100px;
 	margin: 5px;
 
 }
 
 .parent{
-	height: 200px;
+	height: 100%;
 	border: solid 5px aqua;
 	display: flex;
 	/*justify-content: space-around;*/
-	justify-content: center;
-	align-items: center;
+	justify-content: space-around;
+	align-items: stretch;
 
+}
+
+li{
+	opacity: 0;
 }

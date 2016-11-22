@@ -29,10 +29,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>        
         <script src="lib/js/app.js"></script>
         
+
     </head>
     
 
-    <body>    
+    <body onload="Materialize.showStaggeredList('#staggered-test')">    
 
 
 <!-- DIV do Loading da page -->
@@ -45,17 +46,28 @@
 
 
 <!-- CONTEUDO -->
+    
 
     <div class="parent container">
-            
+                
+                <ul id="staggered-test">
+                  <li>
+                    <h4><a href="#" class="flow-text center">Bem Vindo !</a></h4>
+                    <p>Este é o site Anarquia Digital!</p>
+                  </li>
+                </ul>
+
                 <div class="vito" style="background-color:#3F51B5;"></div>
                 <div class="vito" style="background-color:#01579B;"></div>
                 <div class="vito" style="background-color:#3D5AFE;"></div>
                 <div class="vito" style="background-color:#0091EA;"></div>
                 <div class="vito" style="background-color:#651FFF;"></div>
                 <div class="vito" style="background-color:#2196F3;"></div>
-                       
-        </div>
+
+
+    </div>
+
+      
 
 <!-- FIM DO CONTEUDO -->
 
@@ -68,16 +80,18 @@
 
   <nav id="navbar">
     <div class="nav-wrapper">
-      <a href="" class="brand-logo center">Anarquia <b>< / ></b> Digital</span></a>
+      <a  href="" class="brand-logo center">Anarquia <b>< / ></b> Digital</span></a>
     </div>
   </nav>
+
+
 
 
 
 <!-- FIM DA NAVBAR -->
 
 
-
+    <script type="text/javascript" src="lib/js/transition.js"></script>
         
 
     </body>
