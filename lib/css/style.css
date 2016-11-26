@@ -9,15 +9,16 @@
 
 #navbar{
 	position: fixed;
-	display: flex;
-	justify-content: center;	
+	display: flex;	
+	justify-content: center;
+	
+
 	top: 0%;
 	width: 100%;	
 	height: 112px;
-
-	background: linear-gradient(270deg, #fff, #b71c1c , #d50000 , #880e4f , #c51162 , #4a148c , #aa00ff , #004d40, #00bfa5, #01579b , #0091ea , #1b5e20 , #00c853, #000 );
+	background-color: #b71c1c;
+	background: linear-gradient(200deg, #6200ea , #7c4dff   ,  #6200ea  );
 	background-size: 600% 600%;
-
 	-webkit-animation: navColor 10s ease infinite;
 	-moz-animation: navColor 10s ease infinite;
 	animation: navColor 10s ease infinite;
@@ -39,6 +40,7 @@
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 
 /* FIM da animação da NAVBAR */
 
