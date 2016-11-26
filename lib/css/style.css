@@ -15,12 +15,12 @@
 	width: 100%;	
 	height: 112px;
 
-	background: linear-gradient(270deg, #651FFF, #00fffd);
+	background: linear-gradient(270deg, #fff, #b71c1c , #d50000 , #880e4f , #c51162 , #4a148c , #aa00ff , #004d40, #00bfa5, #01579b , #0091ea , #1b5e20 , #00c853, #000 );
 	background-size: 600% 600%;
 
-	-webkit-animation: navColor 40s ease infinite;
-	-moz-animation: navColor 40s ease infinite;
-	animation: navColor 40s ease infinite;
+	-webkit-animation: navColor 10s ease infinite;
+	-moz-animation: navColor 10s ease infinite;
+	animation: navColor 10s ease infinite;
 }
 
 /* Animação da NAVBAR */
