@@ -3,51 +3,45 @@
  	min-width: 310px;
  }
  body{
- 	padding-top: 120px;
 
-background: -moz-radial-gradient(center, ellipse cover, rgba(128,128,128,0) 0%, rgba(128,128,128,0.01) 1%, rgba(128,128,128,0.65) 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover, rgba(128,128,128,0) 0%,rgba(128,128,128,0.01) 1%,rgba(128,128,128,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center, rgba(128,128,128,0) 0%,rgba(128,128,128,0.01) 1%,rgba(128,128,128,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00808080', endColorstr='#a6808080',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 	padding-top: 120px;
+	background: -moz-radial-gradient(center, ellipse cover, rgba(128,128,128,0) 0%, rgba(128,128,128,0.01) 1%, rgba(128,128,128,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(128,128,128,0) 0%,rgba(128,128,128,0.01) 1%,rgba(128,128,128,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, rgba(128,128,128,0) 0%,rgba(128,128,128,0.01) 1%,rgba(128,128,128,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00808080', endColorstr='#a6808080',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
  }
 
 .nav-parent{
 	height: 112px;
 	display: flex;
-	justify-content: space-around;	
-
+	justify-content: space-around;
 }
 
 .custom-logo{
-
 	margin-top: 18px;
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility; 
-
     color: #202020;
     letter-spacing: .1em;
     text-shadow: 
       -1px -1px 1px #111, 
       2px 2px 1px #363636;
-
     user-select:none;
 	/* Correções para os Navegadores */
 	-moz-user-select: none;
 	-webkit-user-select: none; 
 	-ms-user-select:none; 	
 	-o-user-select:none;
-
 }
 
 .custom-logo:hover{
-
-	-webkit-animation: pulse 3s ease infinite;
-	-moz-animation: pulse 3s ease infinite;
-	animation: pulse 3s ease infinite;
+	-webkit-animation: pulse 2.5s ease ;
+	-moz-animation: pulse 2.5s ease ;
+	animation: pulse 2.5s ease ;
 }
 
 @-webkit-keyframes pulse {
@@ -80,6 +74,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00808080', e
 
 .nav-item{
 	padding-top: 28px;
+	margin-right: 5px;
+	margin-left: 5px;
 	height: 112px;
 }
 
