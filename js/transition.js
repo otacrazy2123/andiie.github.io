@@ -1,10 +1,6 @@
 jQuery(document).ready(function($){
 
-
-
-
   Materialize.showStaggeredList = function(selectorOrEl) {
-
 
   	setTimeout(function(){
 			
@@ -25,13 +21,6 @@ jQuery(document).ready(function($){
     });
 
 	},4000);
-
-
-
-
    
   };
-
-
-
 });
