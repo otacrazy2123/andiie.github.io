@@ -6,13 +6,35 @@
  	padding-top: 120px;
  }
 
+.nav-parent{
+	height: 112px;
+	display: flex;
+	justify-content: space-around;	
+
+}
+
+.brand-logo{
+	margin-top: 28px;
+	user-select:none;
+
+	/* Correções para os Navegadores */
+	-moz-user-select: none;
+	-webkit-user-select: none; 
+	-ms-user-select:none; 	
+	-o-user-select:none;" 
+}
+
+.brand-logo:hover{
+	background-color: black;
+}
+
+.nav-item{
+	padding-top: 28px;
+	height: 112px;
+}
 
 #navbar{
 	position: fixed;
-	display: flex;	
-	justify-content: center;
-	
-
 	top: 0%;
 	width: 100%;	
 	height: 112px;
