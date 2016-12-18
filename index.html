@@ -38,7 +38,7 @@
     </head>
     
 
-    <body onload="Materialize.showStaggeredList('#staggered-test')">    
+<body onload="Materialize.showStaggeredList('#staggered-test')" ng-controller="Hello">    
 
 
 <!-- DIV do Loading da page -->
@@ -60,6 +60,9 @@
                     <p>Este é o site Anarquia Digital!</p>
                   </li>
                 </ul>
+
+                <h1>{{greeting}}</h1>
+
 <!--
                 <div class="vito" style="background-color:#3F51B5;"></div>
                 <div class="vito" style="background-color:#01579B;"></div>
@@ -74,7 +77,7 @@
 <!-- FIM DO CONTEUDO -->
 
 
-        
+
 
 
 <!-- NAVBAR -->
